@@ -15,14 +15,14 @@
     {"label": "Optimal Performance", "type": "goal"}
   ],
   "connections": [
-    {"from": "Structure", "to": "Expansive Glazing", "type": "has-feature"},
+    {"from": "Building", "to": "Expansive Glazing", "type": "has-feature"},
     {"from": "Expansive Glazing", "to": "Heat Exchange", "type": "contributes-to"},
-    {"from": "Structure", "to": "Interior Double Façade System", "type": "implements"},
+    {"from": "Building", "to": "Interior Double Façade System", "type": "implements"},
     {"from": "Interior Double Façade System", "to": "Surface Ventilation", "type": "facilitates"},
     {"from": "Surface Ventilation", "to": "Indoor Temperatures", "type": "reduces-in-summer"},
     {"from": "Interior Double Façade System", "to": "Effective Insulator", "type": "acts-as"},
     {"from": "Effective Insulator", "to": "Thermal Comfort", "type": "ensures-in-winter"},
-    {"from": "Structure", "to": "External Shading Devices", "type": "includes"},
+    {"from": "Building", "to": "External Shading Devices", "type": "includes"},
     {"from": "External Shading Devices", "to": "Solar Rays", "type": "mitigate-impact"},
     {"from": "Solar Rays", "to": "Heat Gain", "type": "causes"},
     {"from": "External Shading Devices", "to": "Harnessing of Solar Heat", "type": "allows"},
