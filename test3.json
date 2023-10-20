@@ -1,6 +1,6 @@
 {
   "elements": [
-    {"label": "Structure", "type": "building"},
+    {"label": "Building", "type": "building"},
     {"label": "Expansive Glazing", "type": "feature"},
     {"label": "Heat Exchange", "type": "issue"},
     {"label": "Interior Double Façade System", "type": "solution"},
