@@ -50,6 +50,5 @@
     {"from": "e8", "to": "e5"},
     {"from": "e16", "to": "e15"},
     {"from": "e15", "to": "e6"}
-    // All connections have been added
   ]
 }
