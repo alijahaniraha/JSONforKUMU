@@ -1,66 +1,1255 @@
 {
   "elements": [
-    {"label": "Big glazing", "type": "Feature"},
-    {"label": "Heat transfer", "type": "Issue"},
-    {"label": "Interior double facade", "type": "Solution"},
-    {"label": "Ventilation in summer", "type": "Action"},
-    {"label": "Comfort temperature", "type": "Benefit"},
-    {"label": "Insulation in winter", "type": "Action"},
-    {"label": "Exterior shadings", "type": "Feature"},
-    {"label": "Angle of the shadings", "type": "Feature"},
-    {"label": "Not gaining heat in summer", "type": "Benefit"},
-    {"label": "Gaining heat in winter", "type": "Benefit"},
-    {"label": "Warming the insulated air in winter", "type": "Benefit"},
-    {"label": "Blocking solar radiation to the gap in summer", "type": "Benefit"},
-    {"label": "Lateral functions", "type": "Feature"},
-    {"label": "Blocks daylight", "type": "Issue"},
-    {"label": "Removing south floor slabs", "type": "Solution"},
-    {"label": "Increasing daylight", "type": "Benefit"},
-    {"label": "Semi-open spaces", "type": "Benefit"},
-    {"label": "Step design", "type": "Feature"},
-    {"label": "Co-working", "type": "Function"},
-    {"label": "Connection between innovation hub and university", "type": "Benefit"},
-    {"label": "Pop-out volumes", "type": "Feature"},
-    {"label": "Green roofs", "type": "Solution"},
-    {"label": "Thermal insulation", "type": "Benefit"},
-    {"label": "Green balcony", "type": "Feature"},
-    {"label": "Reduce the pressure", "type": "Benefit"},
-    {"label": "Biophilic design", "type": "Feature"},
-    {"label": "Fresh air change", "type": "Need"},
-    {"label": "HVAC system", "type": "Solution"},
-    {"label": "Duct distribution", "type": "Need"},
-    {"label": "Save the nervi designed ceiling", "type": "Feature"},
-    {"label": "Existing beam shape", "type": "Feature"}
+    {
+      "label": "Intensive Glazing",
+      "type": "Data",
+      "description": "A feature of the building that involves a lot of glass."
+    },
+    {
+      "label": "Heat Transfer",
+      "type": "Analysis",
+      "description": "The process of thermal energy movement from one place to another, influenced by the intensive glazing."
+    },
+    {
+      "label": "Interior Double Facade",
+      "type": "Design",
+      "description": "A solution to mitigate the heat transfer issue caused by intensive glazing."
+    },
+    {
+      "label": "Ventilation in Summer",
+      "type": "Design Consequences",
+      "description": "The effect of using an interior double facade, which helps in air circulation during summer."
+    },
+    {
+      "label": "Comfort Temperature",
+      "type": "Design Consequences",
+      "description": "A desirable indoor temperature achieved during summer due to the ventilation provided by the interior double facade, and during winter due to the insulation provided by the interior double facade."
+    },
+    {
+      "label": "Insulation in Winter",
+      "type": "Design Consequences",
+      "description": "The interior double facade acts as an insulator, retaining warmth during winter."
+    },
+	  {
+      "label": "Exterior Shadings",
+      "type": "Data",
+      "description": "Shadings on the exterior of the building."
+    },
+    {
+      "label": "Angle of the Shadings",
+      "type": "Data",
+      "description": "The angle at which the exterior shadings are positioned."
+    },
+    {
+      "label": "Summer Heat Gain Mitigation",
+      "type": "Analysis",
+      "description": "Analysis of how exterior shadings and their angle help in reducing heat gain during summer."
+    },
+    {
+      "label": "Winter Heat Gain Enhancement",
+      "type": "Analysis",
+      "description": "Analysis of how exterior shadings and their angle, as well as the removal of the south floor slab, contribute to increased heat gain during winter."
+    },
+    {
+      "label": "Optimizing Double Facade Performance",
+      "type": "Design Consequences",
+      "description": "The result of considering the angle of the shadings and the interior double facade together, aiming to optimize the building's thermal performance."
+    },
+    {
+      "label": "Lateral Slabs",
+      "type": "Data",
+      "description": "Existing structural elements of the building."
+    },
+    {
+      "label": "Sufficient Daylight",
+      "type": "Analysis",
+      "description": "The amount of natural light the lateral slabs receive."
+    },
+    {
+      "label": "Lateral Functions",
+      "type": "Design",
+      "description": "Functions or spaces located on the lateral slabs."
+    },
+    {
+      "label": "Blocking Daylight",
+      "type": "Analysis",
+      "description": "The issue of the lateral functions blocking natural light to the central part of the building."
+    },
+    {
+      "label": "Remove the South Floor Slab",
+      "type": "Design",
+      "description": "A design decision to remove the south floor slab to improve central daylight."
+    },
+    {
+      "label": "Improve Central Daylight",
+      "type": "Design Consequences",
+      "description": "The result of removing the south floor slab, leading to enhanced natural light in the central part of the building."
+    },
+    {
+      "label": "Semi-Open Spaces",
+      "type": "Design Consequences",
+      "description": "Spaces created as a result of removing the south floor slab and the step design."
+    },
+    {
+      "label": "Functions Interaction",
+      "type": "Analysis",
+      "description": "The interaction between different functions located in the lateral slabs."
+    },
+    {
+      "label": "Step Design",
+      "type": "Design",
+      "description": "A design decision to create stepped spaces in the lateral slabs."
+    },
+    {
+      "label": "Co-working",
+      "type": "Design",
+      "description": "A space or function that benefits from semi-open spaces and the step design."
+    },
+	{
+      "label": "Facade Pop-Out Volumes",
+      "type": "Data",
+      "description": "Structures on the ground floor that extend out from the facade."
+    },
+    {
+      "label": "Summer Heat Gain Increase",
+      "type": "Analysis",
+      "description": "Analysis of how the facade pop-out volumes can lead to an increase in heat gain during summer."
+    },
+    {
+      "label": "Green Balconies",
+      "type": "Design",
+      "description": "Green roofs on the facade pop-out volumes, functioning as balconies for the first floor."
+    },
+    {
+      "label": "Thermal Insulation",
+      "type": "Design Consequences",
+      "description": "The result of using green balconies, leading to reduced heat transfer."
+    },
+    {
+      "label": "Air Change",
+      "type": "Data",
+      "description": "The requirement for air circulation within the building."
+    },
+    {
+      "label": "Openable Windows",
+      "type": "Analysis",
+      "description": "A solution for providing air change, effective when used in conjunction with the interior double facade."
+    },
+    {
+      "label": "HVAC System",
+      "type": "Design",
+      "description": "Heating, ventilation, and air conditioning system chosen for the building."
+    },
+    {
+      "label": "Duct Distribution",
+      "type": "Design Consequences",
+      "description": "A necessary component for the HVAC system, distributing air throughout the building."
+    },
+    {
+      "label": "Save the Nervi Designed Ceiling",
+      "type": "Design",
+      "description": "A design goal to preserve the architectural integrity of the ceiling designed by Nervi on the ground floor."
+    },
+    {
+      "label": "Using the Existing Beam Shape",
+      "type": "Design",
+      "description": "A design decision to utilize the shape of existing beams for duct distribution in the upper levels."
+    },
+    {
+      "label": "Facade Pop-Out Volumes",
+      "type": "Data",
+      "description": "Structures on the ground floor that extend out from the facade."
+    },
+    {
+      "label": "Summer Heat Gain Increase",
+      "type": "Analysis",
+      "description": "Analysis of how the facade pop-out volumes can lead to an increase in heat gain during summer."
+    },
+    {
+      "label": "Green Balconies",
+      "type": "Design",
+      "description": "Green roofs on the facade pop-out volumes, functioning as balconies for the first floor."
+    },
+    {
+      "label": "Thermal Insulation",
+      "type": "Design Consequences",
+      "description": "The result of using green balconies, leading to reduced heat transfer."
+    },
+    {
+      "label": "Air Change",
+      "type": "Data",
+      "description": "The requirement for air circulation within the building."
+    },
+    {
+      "label": "Openable Windows",
+      "type": "Analysis",
+      "description": "A solution for providing air change, effective when used in conjunction with the interior double facade."
+    },
+    {
+      "label": "HVAC System",
+      "type": "Design",
+      "description": "Heating, ventilation, and air conditioning system chosen for the building."
+    },
+    {
+      "label": "Duct Distribution",
+      "type": "Design Consequences",
+      "description": "A necessary component for the HVAC system, distributing air throughout the building."
+    },
+    {
+      "label": "Save the Nervi Designed Ceiling",
+      "type": "Design",
+      "description": "A design goal to preserve the architectural integrity of the ceiling designed by Nervi on the ground floor."
+    },
+    {
+      "label": "Using the Existing Beam Shape",
+      "type": "Design",
+      "description": "A design decision to utilize the shape of existing beams for duct distribution in the upper levels."
+    },
+	{
+      "label": "High Ceiling",
+      "type": "Data",
+      "description": "The building has a design feature of high ceilings."
+    },
+    {
+      "label": "Stack Ventilation",
+      "type": "Analysis",
+      "description": "A method of natural ventilation that utilizes the high ceilings for air circulation during summer."
+    },
+    {
+      "label": "Heat Loss in Winter",
+      "type": "Analysis",
+      "description": "The high ceilings contribute to heat loss during the winter months."
+    },
+    {
+      "label": "Radiant Heating System",
+      "type": "Design",
+      "description": "A heating system chosen to compensate for the heat loss in winter, especially in semi-open spaces."
+    },
+    {
+      "label": "Mechanical Rooms",
+      "type": "Design",
+      "description": "Rooms designated for housing the mechanical components of the HVAC system."
+    },
+    {
+      "label": "New Vertical Access Boxes on the Facade",
+      "type": "Design",
+      "description": "Added structures on the exterior of the building to provide vertical access, helping to preserve the Nervi designed ceiling."
+    },
+    {
+      "label": "Save Existing Staircases",
+      "type": "Design",
+      "description": "A decision to maintain the existing staircases in the building."
+    },
+    {
+      "label": "Fire Escape",
+      "type": "Data",
+      "description": "Requirements for safe egress in the event of a fire."
+    },
+    {
+      "label": "Fire Proofing Existing Staircases",
+      "type": "Design",
+      "description": "Requirements for safe egress in the event of a fire."
+    },
+    {
+      "label": "Uniformly Designed Exteriors",
+      "type": "Data",
+      "description": "The exterior design of the building is uniform across all sections."
+    },
+    {
+      "label": "Non Inviting Entrances",
+      "type": "Analysis",
+      "description": "The uniformity of the exterior design results in entrances that are not easily distinguishable or welcoming."
+    },
+    {
+      "label": "Uniquely Distinct Exteriors",
+      "type": "Design",
+      "description": "A design goal to create exteriors that are easily distinguishable and inviting."
+    },
+    {
+      "label": "Giardino Corpo Italiano di Liberazione",
+      "type": "Data",
+      "description": "A specific area or feature located on the north side of the building."
+    },
+    {
+      "label": "Connection Underground Level and Park",
+      "type": "Analysis",
+      "description": "A study on how to better connect the underground levels of the building with the park."
+    },
+    {
+      "label": "Outdoor Plaza",
+      "type": "Design",
+      "description": "A proposed space to enhance the connection between the underground level and the park, providing various benefits."
+    },
+    {
+      "label": "Natural Light for Underground",
+      "type": "Design Consequences",
+      "description": "A positive outcome of the outdoor plaza, bringing natural light to the underground levels."
+    },
+    {
+      "label": "Define Event Center Entrance",
+      "type": "Design Consequences",
+      "description": "The outdoor plaza helps to clearly mark the entrance to the event center."
+    },
+	 {
+      "label": "Existing Cinema",
+      "type": "Data",
+      "description": "A pre-existing cinema structure."
+    },
+    {
+      "label": "Sufficient Ceiling Height",
+      "type": "Analysis",
+      "description": "The existing cinema has a ceiling height that is adequate for certain purposes."
+    },
+    {
+      "label": "Event Center",
+      "type": "Design",
+      "description": "A newly designed space, repurposing the underground level of the existing cinema."
+    },
+    {
+      "label": "Low-Impact Adaptive Reuse",
+      "type": "Strategy",
+      "description": "A strategy focusing on repurposing existing structures with minimal impact."
+    },
+    {
+      "label": "Urban Memory Reconnection",
+      "type": "Strategy",
+      "description": "A strategy to reconnect the urban fabric and revive historical or cultural memory through design interventions."
+    },
+    {
+      "label": "Economic Synergy",
+      "type": "Strategy",
+      "description": "A strategy aiming to create economic benefits through collaborative and multipurpose use of spaces."
+    },
+    {
+      "label": "Multi-Purpose Collaborative Event Center",
+      "type": "Design Consequences",
+      "description": "The result of transforming the event center into a space that supports various functions."
+    },
+    {
+      "label": "Dedicated University Entrance",
+      "type": "Design",
+      "description": "A specific entrance designated for university-related activities."
+    },
+    {
+      "label": "North Main Entrance",
+      "type": "Design",
+      "description": "One of the primary entrances located on the north side of the building."
+    },
+    {
+      "label": "South Main Entrance",
+      "type": "Design",
+      "description": "One of the primary entrances located on the south side of the building."
+    },
+    {
+      "label": "Dedicated Co-Working Entrance",
+      "type": "Design",
+      "description": "A specific entrance designated for co-working spaces."
+    },
+    {
+      "label": "City's Primary Highway Entrance",
+      "type": "Analysis",
+      "description": "An analysis of the site's connection and visibility from the city's main highway."
+    },
+    {
+      "label": "Save Lateral Slabs",
+      "type": "Design",
+      "description": "A design decision to preserve the existing lateral slabs of the building."
+    },
+    {
+      "label": "Career Center",
+      "type": "Design",
+      "description": "A space fostering interaction between university and innovation hub."
+    },
+    {
+      "label": "Library",
+      "type": "Design",
+      "description": "A space for study and research, serving both the university and co-working communities."
+    },
+    {
+      "label": "Canteen",
+      "type": "Design",
+      "description": "A dining area serving the university and co-working communities."
+    },
+    {
+      "label": "My Desk",
+      "type": "Design",
+      "description": "A type of co-working space offering dedicated desks."
+    },
+    {
+      "label": "My Flex",
+      "type": "Design",
+      "description": "A flexible co-working space."
+    },
+    {
+      "label": "My Office",
+      "type": "Design",
+      "description": "Private office spaces within the co-working area."
+    },
+    {
+      "label": "Social Integration",
+      "type": "Strategy",
+      "description": "A strategy to foster interaction and integration among different functions and communities."
+    },
+    {
+      "label": "Service Access",
+      "type": "Analysis",
+      "description": "An analysis of how service access can be provided, particularly for the food court."
+    },
+    {
+      "label": "Merging Polito and Unito",
+      "type": "Design",
+      "description": "A design decision to merge two universities, creating synergies and shared facilities."
+    },
+    {
+      "label": "Shared Facilities",
+      "type": "Design",
+      "description": "Facilities that are shared between the merged universities."
+    },
+    {
+      "label": "Laboratories",
+      "type": "Design",
+      "description": "Spaces equipped for scientific research and experimentation."
+    },
+    {
+      "label": "Classrooms",
+      "type": "Design",
+      "description": "Spaces designated for teaching and learning activities."
+    },
+    {
+      "label": "Lecture Hall",
+      "type": "Design",
+      "description": "A large room used for lectures and presentations."
+    },
+	{
+      "label": "Corso Piero Maroncelli",
+      "type": "Data",
+      "description": "A location or area mentioned in the context."
+    },
+	{
+      "label": "Local Urban Context",
+      "type": "Analysis",
+      "description": "An analysis of the local urban context related to Corso Piero Maroncelli."
+    },
+    {
+      "label": "Corso Unita d’Italia",
+      "type": "Data",
+      "description": "Another location or area mentioned in the context."
+    },
+    {
+      "label": "City's Primary Highway Entrance",
+      "type": "Analysis",
+      "description": "An analysis of the site's connection and visibility from the city's main highway."
+    },
+	 {
+      "label": "Food Court",
+      "type": "Design",
+      "description": "A designated area within the building for dining and food services."
+    },
+    {
+      "label": "University",
+      "type": "Design",
+      "description": "A section of the building dedicated to university-related activities and functions."
+    },
+    {
+      "label": "Innovation Hub",
+      "type": "Design",
+      "description": "A space designed to foster innovation and collaborative work."
+    },
+    {
+      "label": "Universities Requirement Program",
+      "type": "Analysis",
+      "description": "An analysis of the requirements and needs of the universities involved in the project."
+    },
+    {
+      "label": "Expanded Existing Slabs",
+      "type": "Design",
+      "description": "An expansion of the existing lateral slabs using a light structure."
+    },
+    {
+      "label": "Light Structure",
+      "type": "Design",
+      "description": "A design choice for expanding the existing slabs, contributing to the strategy of low-impact adaptive reuse."
+    },
+    {
+      "label": "Rotated-Angle",
+      "type": "Design",
+      "description": "A design element applied to the expanded slabs and facade pop-out volumes to align with the existing ceiling geometry."
+    },
+    {
+      "label": "Combination with the Existing Ceiling Geometry",
+      "type": "Consequence",
+      "description": "The result of applying a rotated-angle to the design elements, aiming to achieve a low-impact adaptive reuse strategy."
+    },
+	 {
+      "label": "A Potential Incubator for Innovation, Backed by Local Government",
+      "type": "Data",
+      "description": "A concept shared by Lo Russo for the project."
+    },
+    {
+      "label": "Exploring Hybrid Ideas for Palazzo del Lavoro's Sustainability",
+      "type": "Data",
+      "description": "A sustainability plan shared by Lo Russo for Palazzo del Lavoro."
+    },
+    {
+      "label": "Polytechnic Rector's Plan to Expand Health Park at Palazzo del Lavoro",
+      "type": "Data",
+      "description": "An expansion plan shared by Lo Russo for the Health Park at Palazzo del Lavoro."
+    },
+    {
+      "label": "A Versatile Hub for Diverse Service Activities",
+      "type": "Data",
+      "description": "A vision shared by the Municipal Councilor for the project."
+    },
+    {
+      "label": "Shopville Concept Abandoned in Favor of Sustainable Commercial Service at CDP Project",
+      "type": "Data",
+      "description": "A shift in concept shared by the Municipal Councilor for the CDP project."
+    },
+    {
+      "label": "A Collaborative Vision for a Community-Centric Multifunctional Hub",
+      "type": "Data",
+      "description": "A vision for a multifunctional hub shared by CDP."
+    },
+    {
+      "label": "Scientific and Work Campus for Innovation and Education",
+      "type": "Data",
+      "description": "A plan for a scientific and work campus shared by CDP."
+    },
+    {
+      "label": "A Multifunctional Innovation Hub through Private Engagement",
+      "type": "Data",
+      "description": "A vision for a multifunctional innovation hub shared by CDP."
+    },
+    {
+      "label": "The science museum dedicated to Piero Angela",
+      "type": "Data",
+      "description": "A proposal for a science museum dedicated to Piero Angela, shared by Guido Saracco."
+    },
+    {
+      "label": "Research laboratories and Piero Angela museum",
+      "type": "Data",
+      "description": "A vision for research laboratories and a museum dedicated to Piero Angela, shared by Guido Saracco."
+    },
+    {
+      "label": "Guest spaces of the Parco della Salute",
+      "type": "Data",
+      "description": "A plan for guest spaces at Parco della Salute, shared by Guido Saracco."
+    },
+	 {
+      "label": "Lo Russo",
+      "type": "Actor",
+      "description": "An actor involved in the project, providing insights and plans."
+    },
+    {
+      "label": "Municipal Councilor",
+      "type": "Actor",
+      "description": "Another actor involved in the project, sharing visions and concepts."
+    },
+    {
+      "label": "CDP",
+      "type": "Actor",
+      "description": "An actor representing a collaborative vision for the project."
+    },
+    {
+      "label": "Guido Saracco",
+      "type": "Actor",
+      "description": "An actor sharing ideas related to science, innovation, and education."
+    }
   ],
   "connections": [
-    {"from": "Big glazing", "to": "Heat transfer", "type": "leads to"},
-    {"from": "Heat transfer", "to": "Interior double facade", "type": "solved by"},
-    {"from": "Interior double facade", "to": "Ventilation in summer", "type": "results in"},
-    {"from": "Ventilation in summer", "to": "Comfort temperature", "type": "achieves"},
-    {"from": "Interior double facade", "to": "Insulation in winter", "type": "results in"},
-    {"from": "Insulation in winter", "to": "Comfort temperature", "type": "achieves"},
-    {"from": "Angle of the shadings", "to": "Not gaining heat in summer", "type": "results in"},
-    {"from": "Angle of the shadings", "to": "Gaining heat in winter", "type": "results in"},
-    {"from": "Angle of the shadings", "to": "Warming the insulated air in winter", "type": "results in"},
-    {"from": "Angle of the shadings", "to": "Blocking solar radiation to the gap in summer", "type": "results in"},
-    {"from": "Lateral functions", "to": "Blocks daylight", "type": "leads to"},
-    {"from": "Blocks daylight", "to": "Removing south floor slabs", "type": "solved by"},
-    {"from": "Removing south floor slabs", "to": "Increasing daylight", "type": "results in"},
-    {"from": "Removing south floor slabs", "to": "Semi-open spaces", "type": "creates"},
-    {"from": "Semi-open spaces", "to": "Co-working", "type": "dedicated to"},
-    {"from": "Step design", "to": "Connection between innovation hub and university", "type": "creates"},
-    {"from": "Pop-out volumes", "to": "Increasing heat gain in winter", "type": "results in"},
-    {"from": "Pop-out volumes", "to": "Increasing heat gain in summer", "type": "leads to"},
-    {"from": "Pop-out volumes", "to": "Green roofs", "type": "features"},
-    {"from": "Green roofs", "to": "Thermal insulation", "type": "functions as"},
-    {"from": "Green roofs", "to": "Green balcony", "type": "functions as"},
-    {"from": "Green roofs", "to": "Reduce the pressure", "type": "helps"},
-    {"from": "Reduce the pressure", "to": "Ventilation in summer", "type": "promotes"},
-    {"from": "Green balcony", "to": "Biophilic design", "type": "supports"},
-    {"from": "Lateral functions", "to": "Fresh air change", "type": "needs"},
-    {"from": "Fresh air change", "to": "HVAC system", "type": "solved by"},
-    {"from": "HVAC system", "to": "Duct distribution", "type": "requires"},
-    {"from": "Duct distribution", "to": "Pop-out volumes", "type": "aided by"},
-    {"from": "Duct distribution", "to": "Existing beam shape", "type": "aided by"}
+    {
+      "from": "Intensive Glazing",
+      "to": "Heat Transfer"
+    },
+    {
+      "from": "Heat Transfer",
+      "to": "Interior Double Facade"
+    },
+    {
+      "from": "Interior Double Facade",
+      "to": "Ventilation in Summer"
+    },
+    {
+      "from": "Ventilation in Summer",
+      "to": "Comfort Temperature"
+    },
+    {
+      "from": "Interior Double Facade",
+      "to": "Insulation in Winter"
+    },
+    {
+      "from": "Insulation in Winter",
+      "to": "Comfort Temperature"
+    },
+	{
+      "from": "Exterior Shadings",
+      "to": "Summer Heat Gain Mitigation"
+    },
+    {
+      "from": "Angle of the Shadings",
+      "to": "Summer Heat Gain Mitigation"
+    },
+    {
+      "from": "Exterior Shadings",
+      "to": "Winter Heat Gain Enhancement"
+    },
+    {
+      "from": "Angle of the Shadings",
+      "to": "Winter Heat Gain Enhancement"
+    },
+    {
+      "from": "Summer Heat Gain Mitigation",
+      "to": "Comfort Temperature"
+    },
+    {
+      "from": "Winter Heat Gain Enhancement",
+      "to": "Comfort Temperature"
+    },
+    {
+      "from": "Angle of the Shadings",
+      "to": "Optimizing Double Facade Performance"
+    },
+    {
+      "from": "Interior Double Facade",
+      "to": "Optimizing Double Facade Performance"
+    },
+    {
+      "from": "Optimizing Double Facade Performance",
+      "to": "Comfort Temperature"
+    },
+    {
+      "from": "Lateral Slabs",
+      "to": "Sufficient Daylight"
+    },
+    {
+      "from": "Sufficient Daylight",
+      "to": "Lateral Functions"
+    },
+    {
+      "from": "Lateral Functions",
+      "to": "Blocking Daylight"
+    },
+    {
+      "from": "Blocking Daylight",
+      "to": "Remove the South Floor Slab"
+    },
+    {
+      "from": "Remove the South Floor Slab",
+      "to": "Improve Central Daylight"
+    },
+    {
+      "from": "Remove the South Floor Slab",
+      "to": "Winter Heat Gain Enhancement"
+    },
+    {
+      "from": "Remove the South Floor Slab",
+      "to": "Semi-Open Spaces"
+    },
+    {
+      "from": "Lateral Slabs",
+      "to": "Functions Interaction"
+    },
+    {
+      "from": "Functions Interaction",
+      "to": "Step Design"
+    },
+    {
+      "from": "Step Design",
+      "to": "Semi-Open Spaces"
+    },
+    {
+      "from": "Semi-Open Spaces",
+      "to": "Co-working"
+    },
+    {
+      "from": "Step Design",
+      "to": "Co-working"
+    },
+	{
+      "from": "Facade Pop-Out Volumes",
+      "to": "Winter Heat Gain Enhancement"
+    },
+    {
+      "from": "Facade Pop-Out Volumes",
+      "to": "Summer Heat Gain Increase"
+    },
+    {
+      "from": "Facade Pop-Out Volumes",
+      "to": "Green Balconies"
+    },
+    {
+      "from": "Green Balconies",
+      "to": "Thermal Insulation"
+    },
+    {
+      "from": "Green Balconies",
+      "to": "Optimizing Double Facade Performance"
+    },
+    {
+      "from": "Lateral Functions",
+      "to": "Air Change"
+    },
+    {
+      "from": "Air Change",
+      "to": "Openable Windows"
+    },
+    {
+      "from": "Openable Windows",
+      "to": "Interior Double Facade"
+    },
+    {
+      "from": "Air Change",
+      "to": "HVAC System"
+    },
+    {
+      "from": "HVAC System",
+      "to": "Duct Distribution"
+    },
+    {
+      "from": "Save the Nervi Designed Ceiling",
+      "to": "Duct Distribution"
+    },
+    {
+      "from": "Save the Nervi Designed Ceiling",
+      "to": "Facade Pop-Out Volumes"
+    },
+    {
+      "from": "Using the Existing Beam Shape",
+      "to": "Duct Distribution"
+    },
+	{
+      "from": "Facade Pop-Out Volumes",
+      "to": "Winter Heat Gain Enhancement"
+    },
+    {
+      "from": "Facade Pop-Out Volumes",
+      "to": "Summer Heat Gain Increase"
+    },
+    {
+      "from": "Facade Pop-Out Volumes",
+      "to": "Green Balconies"
+    },
+    {
+      "from": "Green Balconies",
+      "to": "Thermal Insulation"
+    },
+    {
+      "from": "Green Balconies",
+      "to": "Optimizing Double Facade Performance"
+    },
+    {
+      "from": "Lateral Functions",
+      "to": "Air Change"
+    },
+    {
+      "from": "Air Change",
+      "to": "Openable Windows"
+    },
+    {
+      "from": "Openable Windows",
+      "to": "Interior Double Facade"
+    },
+    {
+      "from": "Air Change",
+      "to": "HVAC System"
+    },
+    {
+      "from": "HVAC System",
+      "to": "Duct Distribution"
+    },
+    {
+      "from": "Save the Nervi Designed Ceiling",
+      "to": "Duct Distribution"
+    },
+    {
+      "from": "Save the Nervi Designed Ceiling",
+      "to": "Facade Pop-Out Volumes"
+    },
+    {
+      "from": "Using the Existing Beam Shape",
+      "to": "Duct Distribution"
+    },
+	{
+      "from": "High Ceiling",
+      "to": "Stack Ventilation"
+    },
+    {
+      "from": "Stack Ventilation",
+      "to": "Comfort Temperature"
+    },
+    {
+      "from": "High Ceiling",
+      "to": "Heat Loss in Winter"
+    },
+    {
+      "from": "Heat Loss in Winter",
+      "to": "Radiant Heating System"
+    },
+    {
+      "from": "Radiant Heating System",
+      "to": "Semi-Open Spaces"
+    },
+    {
+      "from": "HVAC System",
+      "to": "Mechanical Rooms"
+    },
+    {
+      "from": "Save the Nervi Designed Ceiling",
+      "to": "New Vertical Access Boxes on the Facade"
+    },
+    {
+      "from": "Save Existing Staircases",
+      "to": "New Vertical Access Boxes on the Facade"
+    },
+    {
+      "from": "Fire Escape",
+      "to": "Facade Pop-Out Volumes"
+    },
+    {
+      "from": "Fire Escape",
+      "to": "Fire Proofing Existing Staircases"
+    },
+    {
+      "from": "Fire Escape",
+      "to": "New Vertical Access Boxes on the Facade"
+    },
+    {
+      "from": "Uniformly Designed Exteriors",
+      "to": "Non Inviting Entrances"
+    },
+    {
+      "from": "Non Inviting Entrances",
+      "to": "Uniquely Distinct Exteriors"
+    },
+    {
+      "from": "Facade Pop-Out Volumes",
+      "to": "Uniquely Distinct Exteriors"
+    },
+    {
+      "from": "New Vertical Access Boxes on the Facade",
+      "to": "Uniquely Distinct Exteriors"
+    },
+    {
+      "from": "Giardino Corpo Italiano di Liberazione",
+      "to": "Connection Underground Level and Park"
+    },
+    {
+      "from": "Connection Underground Level and Park",
+      "to": "Outdoor Plaza"
+    },
+    {
+      "from": "Outdoor Plaza",
+      "to": "Natural Light for Underground"
+    },
+    {
+      "from": "Outdoor Plaza",
+      "to": "Define Event Center Entrance"
+    },
+	 {
+      "from": "Functions Interaction",
+      "to": "Career Center"
+    },
+    {
+      "from": "University",
+      "to": "Career Center"
+    },
+    {
+      "from": "Innovation Hub",
+      "to": "Career Center"
+    },
+    {
+      "from": "Functions Interaction",
+      "to": "Library"
+    },
+    {
+      "from": "University",
+      "to": "Library"
+    },
+    {
+      "from": "Co-Working",
+      "to": "Library"
+    },
+    {
+      "from": "Functions Interaction",
+      "to": "Canteen"
+    },
+    {
+      "from": "University",
+      "to": "Canteen"
+    },
+    {
+      "from": "Co-Working",
+      "to": "Canteen"
+    },
+    {
+      "from": "Functions Interaction",
+      "to": "My Office"
+    },
+    {
+      "from": "Innovation Hub",
+      "to": "My Office"
+    },
+    {
+      "from": "Co-Working",
+      "to": "My Office"
+    },
+    {
+      "from": "Functions Interaction",
+      "to": "My Desk"
+    },
+    {
+      "from": "University",
+      "to": "My Desk"
+    },
+    {
+      "from": "Co-Working",
+      "to": "My Desk"
+    },
+    {
+      "from": "Functions Interaction",
+      "to": "My Flex"
+    },
+    {
+      "from": "University",
+      "to": "My Flex"
+    },
+    {
+      "from": "Co-Working",
+      "to": "My Flex"
+    },
+	{
+      "from": "Existing Cinema",
+      "to": "Sufficient Ceiling Height"
+    },
+    {
+      "from": "Sufficient Ceiling Height",
+      "to": "Event Center"
+    },
+    {
+      "from": "Event Center",
+      "to": "Low-Impact Adaptive Reuse"
+    },
+    {
+      "from": "Outdoor Plaza",
+      "to": "Urban Memory Reconnection"
+    },
+    {
+      "from": "Multi-Purpose Collaborative Event Center",
+      "to": "University"
+    },
+    {
+      "from": "Multi-Purpose Collaborative Event Center",
+      "to": "Innovation Hub"
+    },
+    {
+      "from": "Multi-Purpose Collaborative Event Center",
+      "to": "Co-Working"
+    },
+    {
+      "from": "Giardino Corpo Italiano di Liberazione",
+      "to": "Dedicated University Entrance"
+    },
+    {
+      "from": "Giardino Corpo Italiano di Liberazione",
+      "to": "North Main Entrance"
+    },
+    {
+      "from": "Corso Piero Maroncelli",
+      "to": "South Main Entrance"
+    },
+    {
+      "from": "Corso Piero Maroncelli",
+      "to": "Dedicated Co-Working Entrance"
+    },
+    {
+      "from": "Corso Unita d’Italia",
+      "to": "City's Primary Highway Entrance"
+    },
+    {
+      "from": "Low-Impact Adaptive Reuse",
+      "to": "Save Lateral Slabs"
+    },
+    {
+      "from": "Lateral Slabs",
+      "to": "Save Lateral Slabs"
+    },
+    {
+      "from": "Save Lateral Slabs",
+      "to": "Lateral Functions"
+    },
+    {
+      "from": "Social Integration",
+      "to": "Functions Interaction"
+    },
+    {
+      "from": "Food Court",
+      "to": "Service Access"
+    },
+    {
+      "from": "Service Access",
+      "to": "Facade Pop-Out Volumes"
+    },
+    {
+      "from": "Universities Requirement Program",
+      "to": "Merging Polito and Unito"
+    },
+    {
+      "from": "Merging Polito and Unito",
+      "to": "Economic Synergy"
+    },
+    {
+      "from": "Merging Polito and Unito",
+      "to": "Social Integration"
+    },
+    {
+      "from": "Merging Polito and Unito",
+      "to": "Shared Facilities"
+    },
+    {
+      "from": "Shared Facilities",
+      "to": "Library"
+    },
+    {
+      "from": "Shared Facilities",
+      "to": "Canteen"
+    },
+    {
+      "from": "Shared Facilities",
+      "to": "Laboratories"
+    },
+    {
+      "from": "Shared Facilities",
+      "to": "Classrooms"
+    },
+    {
+      "from": "Shared Facilities",
+      "to": "Lecture Hall"
+    },
+	{
+      "from": "Corso Piero Maroncelli",
+      "to": "Local Urban Context"
+    },
+    {
+      "from": "Local Urban Context",
+      "to": "South Main Entrance"
+    },
+    {
+      "from": "Local Urban Context",
+      "to": "Dedicated Co-Working Entrance"
+    },
+    {
+      "from": "Dedicated Co-Working Entrance",
+      "to": "Co-Working"
+    },
+    {
+      "from": "Corso Unita d’Italia",
+      "to": "City's Primary Highway Entrance"
+    },
+    {
+      "from": "City's Primary Highway Entrance",
+      "to": "Uniquely Distinct Exteriors"
+    },
+    {
+      "from": "City's Primary Highway Entrance",
+      "to": "Facade Pop-Out Volumes"
+    },
+	{
+      "from": "Outdoor Plaza",
+      "to": "Event Center"
+    },
+	{
+      "from": "Event Center",
+      "to": "Multi-Purpose Collaborative Event Center"
+    },
+    {
+      "from": "Multi-Purpose Collaborative Event Center",
+      "to": "Economic Synergy"
+    },
+    {
+      "from": "Multi-Purpose Collaborative Event Center",
+      "to": "University"
+    },
+    {
+      "from": "Multi-Purpose Collaborative Event Center",
+      "to": "Innovation Hub"
+    },
+    {
+      "from": "Multi-Purpose Collaborative Event Center",
+      "to": "Co-Working"
+    },{
+      "from": "Lateral Slabs",
+      "to": "Expanded Existing Slabs"
+    },
+    {
+      "from": "Expanded Existing Slabs",
+      "to": "Light Structure"
+    },
+    {
+      "from": "Light Structure",
+      "to": "Low-Impact Adaptive Reuse"
+    },
+    {
+      "from": "Expanded Existing Slabs",
+      "to": "Rotated-Angle"
+    },
+    {
+      "from": "Rotated-Angle",
+      "to": "Combination with the Existing Ceiling Geometry"
+    },
+    {
+      "from": "Combination with the Existing Ceiling Geometry",
+      "to": "Low-Impact Adaptive Reuse"
+    },
+    {
+      "from": "Facade Pop-Out Volumes",
+      "to": "Rotated-Angle"
+    },
+    {
+      "from": "Rotated-Angle",
+      "to": "Combination with the Existing Ceiling Geometry"
+    },{
+      "from": "Lo Russo",
+      "to": "A Potential Incubator for Innovation, Backed by Local Government"
+    },
+    {
+      "from": "Lo Russo",
+      "to": "Exploring Hybrid Ideas for Palazzo del Lavoro's Sustainability"
+    },
+    {
+      "from": "Lo Russo",
+      "to": "Polytechnic Rector's Plan to Expand Health Park at Palazzo del Lavoro"
+    },
+    {
+      "from": "Municipal Councilor",
+      "to": "A Versatile Hub for Diverse Service Activities"
+    },
+    {
+      "from": "Municipal Councilor",
+      "to": "Shopville Concept Abandoned in Favor of Sustainable Commercial Service at CDP Project"
+    },
+    {
+      "from": "CDP",
+      "to": "A Collaborative Vision for a Community-Centric Multifunctional Hub"
+    },
+    {
+      "from": "CDP",
+      "to": "Scientific and Work Campus for Innovation and Education"
+    },
+    {
+      "from": "CDP",
+      "to": "A Multifunctional Innovation Hub through Private Engagement"
+    },
+    {
+      "from": "Guido Saracco",
+      "to": "The science museum dedicated to Piero Angela"
+    },
+    {
+      "from": "Guido Saracco",
+      "to": "Research laboratories and Piero Angela museum"
+    },
+    {
+      "from": "Guido Saracco",
+      "to": "Guest spaces of the Parco della Salute"
+    },
+	 {
+      "from": "A Potential Incubator for Innovation, Backed by Local Government",
+      "to": "Innovation Hub"
+    },
+    {
+      "from": "A Potential Incubator for Innovation, Backed by Local Government",
+      "to": "University"
+    },
+    {
+      "from": "A Potential Incubator for Innovation, Backed by Local Government",
+      "to": "Co-Working"
+    },
+    {
+      "from": "Exploring Hybrid Ideas for Palazzo del Lavoro's Sustainability",
+      "to": "Economic Synergy"
+    },
+    {
+      "from": "Polytechnic Rector's Plan to Expand Health Park at Palazzo del Lavoro",
+      "to": "University"
+    },
+    {
+      "from": "Polytechnic Rector's Plan to Expand Health Park at Palazzo del Lavoro",
+      "to": "Co-Working"
+    },
+    {
+      "from": "Polytechnic Rector's Plan to Expand Health Park at Palazzo del Lavoro",
+      "to": "Economic Synergy"
+    },
+    {
+      "from": "A Versatile Hub for Diverse Service Activities",
+      "to": "Shopping Center"
+    },
+    {
+      "from": "A Versatile Hub for Diverse Service Activities",
+      "to": "University"
+    },
+    {
+      "from": "A Versatile Hub for Diverse Service Activities",
+      "to": "Co-Working"
+    },
+    {
+      "from": "A Versatile Hub for Diverse Service Activities",
+      "to": "Innovation Hub"
+    },
+    {
+      "from": "A Versatile Hub for Diverse Service Activities",
+      "to": "Science Museum"
+    },
+    {
+      "from": "Shopville Concept Abandoned in Favor of Sustainable Commercial Service at CDP Project",
+      "to": "Shopping Center"
+    },
+    {
+      "from": "A Collaborative Vision for a Community-Centric Multifunctional Hub",
+      "to": "Social Integration"
+    },
+    {
+      "from": "A Collaborative Vision for a Community-Centric Multifunctional Hub",
+      "to": "Economic Synergy"
+    },
+    {
+      "from": "Scientific and Work Campus for Innovation and Education",
+      "to": "University"
+    },
+    {
+      "from": "Scientific and Work Campus for Innovation and Education",
+      "to": "Co-Working"
+    },
+    {
+      "from": "Scientific and Work Campus for Innovation and Education",
+      "to": "Science Museum"
+    },
+    {
+      "from": "Scientific and Work Campus for Innovation and Education",
+      "to": "Innovation Hub"
+    },
+    {
+      "from": "A Multifunctional Innovation Hub through Private Engagement",
+      "to": "Innovation Hub"
+    },
+    {
+      "from": "A Multifunctional Innovation Hub through Private Engagement",
+      "to": "Co-Working"
+    },
+    {
+      "from": "The science museum dedicated to Piero Angela",
+      "to": "Science Museum"
+    },
+    {
+      "from": "Research laboratories and Piero Angela museum",
+      "to": "Science Museum"
+    },
+    {
+      "from": "Research laboratories and Piero Angela museum",
+      "to": "University"
+    },
+    {
+      "from": "Guest spaces of the Parco della Salute",
+      "to": "Economic Synergy"
+    }
   ]
 }
